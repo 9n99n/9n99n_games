@@ -24,11 +24,11 @@ body {
     margin-right: 16px;
 }
 
-.sushi-h::before {
+/*.sushi-h::before {
     content: url("images/tuna.png");
     display: inline-block;
     margin-right: 10px;
-}
+}*/
 
 .link-box {
     list-style-type: none;
