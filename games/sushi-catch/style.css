@@ -53,3 +53,13 @@ footer {
     text-align: center;
     font-size: smaller;
 }
+
+@media only screen and (max-width: 640px) {
+    .footer-sns {
+        margin: auto;
+        justify-content: center;
+    }
+    .images-box img {
+        width: 46%;
+    }
+}
