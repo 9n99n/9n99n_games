@@ -9,7 +9,7 @@
 body {
     max-width: 1920px;
     min-width: 320px;
-    background: #eee;
+    /*background: #eee;*/
     margin: 0 auto;
     font-family: 'YuGothic', 'Arial', sans-serif;
 }
@@ -70,9 +70,13 @@ body {
 /**********************footer************************/
 
 footer {
-    padding: 32px 32px 8px 32px;
     background: #333;
     color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin: 0 auto;
+    padding: 32px 0;
 }
 
 .footer-sns {
@@ -100,10 +104,15 @@ footer {
 }
 
 @media only screen and (max-width: 640px) {
+    footer {
+        position: relative;
+    }
+
     .footer-sns {
         margin: auto;
         justify-content: center;
     }
+
     .images-box img {
         width: 46%;
     }
