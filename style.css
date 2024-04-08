@@ -107,4 +107,13 @@ footer {
     .images-box img {
         width: 46%;
     }
+
+    .games-list {
+        margin: auto;
+        display: block;
+    }
+
+    .game-box {
+        width: 100%;
+    }
 }
